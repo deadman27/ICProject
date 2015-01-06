@@ -24,6 +24,24 @@ public class Operation {
 		return this.nombre1 * this.nombre2;
 	}
 	
+	public int multiplication2(){
+		int resultat=0;
+		boolean InverserSigne = false;
+		if (this.nombre2 < 0){
+			this.nombre2 = -this.nombre2;
+			InverserSigne = true;
+		}
+		for(int i=0;i<this.nombre2;i++){
+			resultat += this.nombre1;
+		}
+		if(InverserSigne){
+			return -resultat;
+		}
+		else{
+			return resultat;
+		}
+	}
+	
 	public int division(){
 		return this.nombre1 / this.nombre2;
 	}
@@ -59,7 +77,7 @@ public class Operation {
 		case "-" :
 			return this.soustraction();
 		case "*" :
-			return this.multiplication();
+			return this.multiplication2();
 		case "/" :
 			return this.division();
 		}
