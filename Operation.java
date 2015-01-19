@@ -80,7 +80,8 @@ public class Operation {
 			return this.multiplication2();
 		case "/" :
 			return this.division();
+	    default :
+	    	throw new IllegalArgumentException("Mauvais opérateur");
 		}
-		return 9999;
 	}
 }
