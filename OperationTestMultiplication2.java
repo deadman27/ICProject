@@ -48,11 +48,35 @@ public class OperationTestMultiplication2 {
 	}
 	
 	@Test
+	public void multiplicationNegative2(){
+		this.op.setNombre1(-6);
+		this.op.setNombre2(4);
+		this.op.setOperation("*");
+		assertTrue(-24 == op.getResultat());
+	}
+	
+	@Test
 	public void multiplicationDoubleNegative(){
 		this.op.setNombre1(-4);
 		this.op.setNombre2(-6);
 		this.op.setOperation("*");
 		assertTrue(24 == op.getResultat());
+	}
+	
+	@Test
+	public void multiplicationParZero(){
+		this.op.setNombre1(0);
+		this.op.setNombre2(6);
+		this.op.setOperation("*");
+		assertTrue(0 == op.getResultat());
+	}
+	
+	@Test
+	public void multiplicationParZero2(){
+		this.op.setNombre1(6);
+		this.op.setNombre2(0);
+		this.op.setOperation("*");
+		assertTrue(0 == op.getResultat());
 	}
 
 }
