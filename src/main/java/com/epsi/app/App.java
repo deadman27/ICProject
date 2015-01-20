@@ -12,8 +12,6 @@ public class App
     {
         System.out.println( "Hello World!" );//Test
         
-       
-        
         while(true){
 			Operation operation = new Operation();
 			System.out.println("Quel type d'opération vouluez-vous faire ?");
