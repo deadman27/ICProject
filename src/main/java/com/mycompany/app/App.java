@@ -1,4 +1,8 @@
-package com.mycompany.app;
+package main.java.com.mycompany.app;
+
+import java.util.Scanner;
+
+import test.java.com.mycompany.app.AppTest;
 /**
  * Hello world!
  *
