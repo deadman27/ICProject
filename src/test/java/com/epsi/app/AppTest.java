@@ -36,4 +36,52 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+	public void multiplicationPositive(){
+        Operation op = new Operation();
+		op.setNombre1(4);
+		op.setNombre2(6);
+		op.setOperation("*");
+		assertTrue(24 == op.getResultat());
+	}
+	
+	public void multiplicationNegative(){
+        Operation op = new Operation();
+		op.setNombre1(4);
+		op.setNombre2(-6);
+		op.setOperation("*");
+		assertTrue(-24 == op.getResultat());
+	}
+	
+	public void multiplicationNegative2(){
+        Operation op = new Operation();
+		op.setNombre1(-6);
+		op.setNombre2(4);
+		op.setOperation("*");
+		assertTrue(-24 == op.getResultat());
+	}
+	
+	public void multiplicationDoubleNegative(){
+        Operation op = new Operation();
+		op.setNombre1(-4);
+		op.setNombre2(-6);
+		op.setOperation("*");
+		assertTrue(24 == op.getResultat());
+	}
+	
+	public void multiplicationParZero(){
+        Operation op = new Operation();
+		op.setNombre1(0);
+		op.setNombre2(6);
+		op.setOperation("*");
+		assertTrue(0 == op.getResultat());
+	}
+	
+	public void multiplicationParZero2(){
+        Operation op = new Operation();
+		op.setNombre1(6);
+		op.setNombre2(0);
+		op.setOperation("*");
+		assertTrue(0 == op.getResultat());
+	}
 }
