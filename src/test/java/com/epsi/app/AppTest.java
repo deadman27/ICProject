@@ -34,8 +34,8 @@ public class AppTest
      */
     public void testApp()
     {
-        //assertTrue(false);
-        this.multiplicationPositive();
+        assertTrue(false);
+        //this.multiplicationPositive();
     }
     
 	public void multiplicationPositive(){
