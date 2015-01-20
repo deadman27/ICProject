@@ -2,7 +2,7 @@ package com.mycompany.app;
 
 public class Operation {
 
-	int nombre1;
+	int nombre1; 
 	int nombre2;
 	String operation;
 	
@@ -81,7 +81,7 @@ public class Operation {
 		case "/" :
 			return this.division();
 	    default :
-	    	throw new IllegalArgumentException("Mauvais opérateur");
+	    	throw new IllegalArgumentException("Mauvais opï¿½rateur");
 		}
 	}
 }

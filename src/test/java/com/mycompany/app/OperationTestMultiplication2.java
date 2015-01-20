@@ -11,7 +11,7 @@ import junit.framework.TestSuite;
 
 /**
  * @author gui
- *
+ * 
  */
 public class OperationTestMultiplication2 {
 	protected Operation op;

@@ -4,7 +4,7 @@ package com.mycompany.app;
  * Hello world!
  *
  */
-public class App 
+public class App  
 {
     public static void main( String[] args )
     {
@@ -15,7 +15,7 @@ public class App
         
         while(true){
 			Operation operation = new Operation();
-			System.out.println("Quel type d'opération vouluez-vous faire ?");
+			System.out.println("Quel type d'opï¿½ration vouluez-vous faire ?");
 			Scanner sc = new Scanner(System.in);
 			String input = sc.nextLine();
 			
