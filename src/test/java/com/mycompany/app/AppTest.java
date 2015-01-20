@@ -1,6 +1,5 @@
-package test.java.com.mycompany.app;
+package com.mycompany.app;
 
-import main.java.com.mycompany.app;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;

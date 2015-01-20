@@ -1,5 +1,4 @@
-package main.java.com.mycompany.app;
-import test.java.com.mycompany.app;
+package com.mycompany.app;
 
 public class Operation {
 
