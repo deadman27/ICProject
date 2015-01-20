@@ -11,14 +11,8 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );//Test
-        AppTest app = new AppTest();
-        testApp();
-        multiplicationPositive();
-        multiplicationNegative();
-        multiplicationNegative2();
-        multiplicationDoubleNegative();
-        multiplicationParZero();
-        multiplicationParZero2();
+        
+       
         
         while(true){
 			Operation operation = new Operation();
