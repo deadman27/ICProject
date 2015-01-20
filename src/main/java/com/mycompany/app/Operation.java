@@ -1,4 +1,4 @@
-package fr.logic.git;
+package com.mycompany.app;
 
 public class Operation {
 
