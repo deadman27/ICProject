@@ -1,5 +1,5 @@
-package com.mycompany.app;
-
+package main.java.com.mycompany.app;
+import test.java.com.mycompany.app;
 /**
  * Hello world!
  *
